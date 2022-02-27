@@ -18,7 +18,7 @@ let package = Package(
             targets: ["AppModule"],
             bundleIdentifier: "com.zed.null.turingmachine",
             teamIdentifier: "G7668ALM57",
-            displayVersion: "1.0",
+            displayVersion: "1.2",
             bundleVersion: "2",
             iconAssetName: "AppIcon",
             accentColorAssetName: "AccentColor",
