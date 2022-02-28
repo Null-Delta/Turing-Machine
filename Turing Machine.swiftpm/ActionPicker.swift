@@ -50,7 +50,7 @@ struct ActionPicker: View {
     var body: some View {
         VStack(spacing: 0) {
             Spacer()
-            MultiWheelPicker(selections: [$localLetter, $localMove, $localState], localSelections: ["", "", ""], data: [letters,moves, states])
+            MultiWheelPicker(selections: [$localLetter, $localMove, $localState], localSelections: [State(initialValue: ""), State(initialValue: ""), State(initialValue: "")], data: [letters,moves, states])
                 .frame(height: 164)
                 //.background(Color.red)
                 .clipped()
